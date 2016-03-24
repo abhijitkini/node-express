@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Shippable automating deployment to your Elastic Beanstalk' });
+  res.render('index', { title: 'Shippable' });
 });
 
 module.exports = router;

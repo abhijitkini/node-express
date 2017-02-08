@@ -9,12 +9,12 @@ build:
   ci:
     - node --version
 
-integrations:
-  deploy:
-    - integrationName: "AWS-Abhijit"
-      type: aws
-      target: eb_paas
-      platform: "Node.js"
-      application_name: node-express-appname
-      env_name: node-express-envname
-      region: us-west-2
+#integrations:
+ # deploy:
+ #   - integrationName: "AWS-Abhijit"
+  #    type: aws
+   #   target: eb_paas
+    #  platform: "Node.js"
+     # application_name: node-express-appname
+      #env_name: node-express-envname
+      #region: us-west-2
